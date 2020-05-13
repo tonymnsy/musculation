@@ -1,0 +1,8 @@
+<FilesMatch "administration.php">
+
+ AuthName "Ceci est du contenu sécurisé"
+ AuthType Basic
+ AuthUserFile "/storage/ssd4/590/12463590/public_html/.htpasswd"
+ Require valid-user
+
+</FilesMatch>
